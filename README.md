@@ -1,6 +1,6 @@
 # Descripción del modelo de base de datos para la gestión inmobiliaria:
 
-Nuestro cliente, la Agencia Inmobiliaria "DataVivienda", nos ha encargado el desarrollo de una base de datos robusta para gestionar la información de propiedades, clientes, contratos, pagos y publicaciones. La base debe ser capaz de almacenar detalles sobre los clientes, los propietarios de las propiedades, los contratos de arrendamiento o compra-venta, los pagos realizados, así como los servicios asociados a cada propiedad y las publicaciones para la comercialización de las mismas.
+Nuestro cliente, la Agencia Inmobiliaria "DataVivienda", nos ha encargado el desarrollo de una base de datos robusta para gestionar la información de propiedades, clientes, contratos, pagos y publicaciones. La base debe ser capaz de almacenar detalles sobre los clientes, los propietarios de las inmuebles, los contratos de arrendamiento o compra-venta, los pagos realizados, así como los servicios asociados a cada propiedad y las publicaciones para la comercialización de las mismas.
 
 ## El modelo debe contemplar las siguientes entidades y relaciones:
  
