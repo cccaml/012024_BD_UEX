@@ -12,3 +12,6 @@ Nuestro cliente, la Agencia Inmobiliaria "DataVivienda", nos ha encargado el des
 - Publicaciones de Inmueble: Para la promoción de las propiedades, se gestionan publicaciones que contienen información como un ID único, el precio solicitado, la fecha de publicación, el estado de la misma (activa, inactiva).
   
 El modelo entidad-relación detallará cómo estas entidades se interrelacionan entre sí, garantizando la integridad y coherencia de los datos. La normalización nos ayudará a eliminar redundancias y dependencias para optimizar el almacenamiento de datos y las consultas.
+
+
+![Modelo Entidad Relación](proyecto.jpeg)
