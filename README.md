@@ -6,10 +6,9 @@ Nuestro cliente, la Agencia Inmobiliaria "DataVivienda", nos ha encargado el des
  
 - Clientes: Cada cliente se identifica de forma única a través de un ID y sus datos personales como nombre, apellido, documento de identidad, contacto telefónico, correo electrónico, ingresos mensuales, referencias personales y estado civil.
 - Propietarios: Al igual que los clientes, los propietarios tienen un identificador único y se almacena su información personal. Además, se incluye su cuenta bancaria para gestionar los cobros de alquileres o ventas.
-- Propiedades (Inmuebles): Cada propiedad tiene su propio identificador y se clasifica según tipo (casa, apartamento, estudio). Se detallan las características como número de habitaciones, baños, dimensiones, si está amueblada, los servicios incluidos y un depósito en garantía.
+- Inmuebles: Cada propiedad tiene su propio identificador y se clasifica según tipo (casa, apartamento, estudio). Se detallan las características como número de habitaciones, baños, si está amueblada y un depósito en garantía.
 - Contratos: Se manejan contratos de arrendamiento o compra-venta, cada uno con un identificador único. Estos documentos establecen el inicio y vencimiento del contrato, el estado del mismo (activo, vencido, cancelado) y la fecha de firma. Además, vinculan a la propiedad, al cliente y al propietario.
 - Pagos: Cada pago se registra con un ID y está relacionado con un contrato específico. Se anota la fecha del pago, el monto, el método de pago y el estado del pago.
-- Servicios: Las propiedades cuentan con servicios básicos como administración, agua, luz y gas, cada uno con un ID y vinculado a las propiedades a través de un identificador.
-- Publicaciones de Inmueble: Para la promoción de las propiedades, se gestionan publicaciones que contienen información como un ID único, el precio solicitado, la fecha de publicación, el estado de la misma (activa, inactiva), y el tipo de operación (venta, alquiler).
+- Publicaciones de Inmueble: Para la promoción de las propiedades, se gestionan publicaciones que contienen información como un ID único, el precio solicitado, la fecha de publicación, el estado de la misma (activa, inactiva).
   
 El modelo entidad-relación detallará cómo estas entidades se interrelacionan entre sí, garantizando la integridad y coherencia de los datos. La normalización nos ayudará a eliminar redundancias y dependencias para optimizar el almacenamiento de datos y las consultas.
