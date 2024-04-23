@@ -13,5 +13,6 @@ Nuestro cliente, la Agencia Inmobiliaria "DataVivienda", nos ha encargado el des
   
 El modelo entidad-relación detallará cómo estas entidades se interrelacionan entre sí, garantizando la integridad y coherencia de los datos. La normalización nos ayudará a eliminar redundancias y dependencias para optimizar el almacenamiento de datos y las consultas.
 
-
+## 1. Diseño Conceptual:
+Para saber cómo estructurar la base de datos haremos un diagrama con las entidades, sus atributos y sus relaciones.
 ![Modelo Entidad Relación](proyecto.jpeg)
