@@ -24,4 +24,4 @@ Definida la estructura la convertiremos en un modelo relacional de tablas.
 
 
 ## 3. Creación Base de Datos:
-Con código SQL crearemos toda la estructura que albergará los datos. La carga de datos la haremos de forma manual en todas las tablas (Base de Datos).
+Con código SQL crearemos toda la estructura que albergará los datos. La carga de datos la haremos de forma manual en todas las tablas [Base de Datos SQL](https://github.com/cccaml/012024_BD_UEX/blob/main/BaseSQL.sql)
