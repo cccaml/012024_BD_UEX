@@ -28,3 +28,4 @@ Con código SQL crearemos toda la estructura que albergará los datos. La carga 
 
 ## 4. Normalización de la Base de Datos:
 La normalización de la base de la datos seria la siguiente. [Normalización SQL](https://github.com/cccaml/012024_BD_UEX/blob/main/Normalizacion.sql)
+![Normalización](Normalizacion.png)
