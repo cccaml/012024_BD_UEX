@@ -4,12 +4,13 @@ Nuestro cliente, la Agencia Inmobiliaria "DataVivienda", nos ha encargado el des
 
 ## Entidades Principales y Relaciones:
 
-Persona: Esta entidad representa a los individuos asociados con la agencia, ya sean clientes o propietarios. Cada persona tiene un identificador único (ID_Persona) y atributos para almacenar el nombre, apellido, documento de identidad, número de celular y correo electrónico.
-Tipo Persona: Clasifica a las personas en diferentes categorías (por ejemplo, cliente o propietario) utilizando un identificador único (ID_TipoPersona) y el tipo correspondiente.
-Inmueble: Cada propiedad inmobiliaria está representada con un identificador único (ID_Inmueble) y se categoriza por tipo (casa, apartamento, estudio, etc.). Incluye detalles como el número de habitaciones, número de baños, si está amueblado y un depósito de garantía.
-Contrato: Se manejan contratos de arrendamiento o compraventa, identificados por un ID_Contrato único. Los contratos almacenan información sobre el estado del contrato (activo, vencido, cancelado), las fechas de inicio, vencimiento y firma. Cada contrato está asociado con un inmueble, un cliente (ID_Cliente) y un propietario (ID_Propietario).
-Pago: Los pagos realizados están asociados con los contratos a través de un ID_Pago. Se registra la fecha del pago (Fecha_Pago), el monto pagado, el método de pago y el estado del pago.
-Publicación Inmueble: Para la promoción de las propiedades, se crean publicaciones que contienen un ID_Publicacion único, el precio solicitado, la fecha de publicación y el estado de la publicación (activa, inactiva).
+- Persona: Esta entidad representa a los individuos asociados con la agencia, ya sean clientes o propietarios. Cada persona tiene un identificador único (ID_Persona) y atributos para almacenar el nombre, apellido, documento de identidad, número de celular y correo electrónico.
+- Tipo Persona: Clasifica a las personas en diferentes categorías (por ejemplo, cliente o propietario) utilizando un identificador único (ID_TipoPersona) y el tipo correspondiente.
+- Inmueble: Cada propiedad inmobiliaria está representada con un identificador único (ID_Inmueble) y se categoriza por tipo (casa, apartamento, estudio, etc.). Incluye detalles como el número de habitaciones, número de baños, si está amueblado y un depósito de garantía.
+- Contrato: Se manejan contratos de arrendamiento o compraventa, identificados por un ID_Contrato único. Los contratos almacenan información sobre el estado del contrato (activo, vencido, cancelado), las fechas de inicio, vencimiento y firma. Cada contrato está asociado con un inmueble, un cliente (ID_Cliente) y un propietario (ID_Propietario).
+- Pago: Los pagos realizados están asociados con los contratos a través de un ID_Pago. Se registra la fecha del pago (Fecha_Pago), el monto pagado, el método de pago y el estado del pago.
+Publicación
+- Inmueble: Para la promoción de las propiedades, se crean publicaciones que contienen un ID_Publicacion único, el precio solicitado, la fecha de publicación y el estado de la publicación (activa, inactiva).
   
 El modelo entidad-relación detallará cómo estas entidades se interrelacionan entre sí, garantizando la integridad y coherencia de los datos. La normalización nos ayudará a eliminar redundancias y dependencias para optimizar el almacenamiento de datos y las consultas.
 
