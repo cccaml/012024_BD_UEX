@@ -15,7 +15,7 @@ El modelo entidad-relación detallará cómo estas entidades se interrelacionan 
 
 ## 1. Diseño Conceptual:
 Para saber cómo estructurar la base de datos haremos un diagrama con las entidades, sus atributos y sus relaciones.
-![Modelo Entidad Relación](proyecto.jpeg)
+![Modelo Entidad Relación](proyecto.png)
 
 
 ## 2. Diseño Lógico:
